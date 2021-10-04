@@ -4,7 +4,6 @@
 <pre><code>conda create -c rdkit --name constrainedGA python=3.7</code></pre>
 
 * Activate the anaconda environment.
-
 <pre><code>conda activate constrainedGA</code></pre>
 
 * Install all dependent packages with the command below.
@@ -17,17 +16,17 @@ pip install selfies
 
 * paramenters(default)
 <pre><code>
---smiles_file 'data/zinc_dearom'.txt
---target_file 'data/logp_800.txt'
---seed 0
---population_size 100
---offspring_size 1000
---mutation_rate 0.5
---constraint_rate 0.1
---generations 20
---output_dir './output/constrained/'
---patience 5
---delta 0.6
+  --smiles_file 'data/zinc_dearom'.txt
+  --target_file 'data/logp_800.txt'
+  --seed 0
+  --population_size 100
+  --offspring_size 1000
+  --mutation_rate 0.5
+  --constraint_rate 0.1
+  --generations 20
+  --output_dir './output/constrained/'
+  --patience 5
+  --delta 0.6
 </code></pre>
 
 * Example of Code Execution(delta = 0.6)
