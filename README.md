@@ -1,3 +1,5 @@
+### ConstrainedGA
+
 * Enter the command below to configure the anaconda environment.
 <pre><code>conda create -c rdkit --name constrainedGA python=3.7</code></pre>
 
@@ -17,7 +19,7 @@ pip install selfies
 <pre><code>--smiles_file 'data/zinc_dearom'.txt
 --target_file 'data/logp_800.txt'
 --seed 0
---population_size 100 
+--population_size 100
 --offspring_size 1000
 --mutation_rate 0.5
 --constraint_rate 0.1
