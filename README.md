@@ -16,7 +16,8 @@ pip install selfies
 </code></pre>
 
 * paramenters(default)
-<pre><code>--smiles_file 'data/zinc_dearom'.txt
+<pre><code>
+--smiles_file 'data/zinc_dearom'.txt
 --target_file 'data/logp_800.txt'
 --seed 0
 --population_size 100
@@ -26,7 +27,8 @@ pip install selfies
 --generations 20
 --output_dir './output/constrained/'
 --patience 5
---delta 0.6</code></pre>
+--delta 0.6
+</code></pre>
 
 * Example of Code Execution(delta = 0.6)
 <pre><code>python constrained_opt.py</code></pre>
