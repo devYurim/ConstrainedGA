@@ -1,5 +1,9 @@
 ### ConstrainedGA
 
+* Development Environment
+
+  The simulation code was written in anaconda 4.10.1, python 3.7.10 environment. Chemical calculations were performed using RDKit 2020.09.1.0. We used the SELFIES package 1.0.4 version.
+
 * Enter the command below to configure the anaconda environment.
 <pre><code>conda create -c rdkit --name constrainedGA python=3.7</code></pre>
 
